@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/microsoft/codespaces-teaching-template-js#readme",
+  "homepage": "https://codegirl254.github.io/MLSA-Onboarding",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://{codegirl254}.github.io/{MLSA-Onboarding}'",
+    "build-gh": "parcel build --public-url 'https://codegirl254.github.io/MLSA-Onboarding'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
